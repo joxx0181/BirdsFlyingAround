@@ -9,7 +9,7 @@ namespace BirdsFlyingAroundApp
     // This interface represents swim!
     interface ISwim
     {
-
+        // abstract method with empty body!
         string SwimSkill();
     }
 }

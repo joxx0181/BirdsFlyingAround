@@ -9,7 +9,7 @@ namespace BirdsFlyingAroundApp
     // This class represents owl and implements interfaces!
     public class Owl : Bird, IFly, ISwim
     {
-        // overriding methods!
+        // overriding method!
         public override void Draw()
         {
             Console.WriteLine(" ,_,");
@@ -18,6 +18,7 @@ namespace BirdsFlyingAroundApp
             Console.WriteLine(" ¨ ¨ ");
         }
 
+        // The body of interface methods is provided here!
         public void SetAltitude(double altitude)
         {
             //SetAltitude

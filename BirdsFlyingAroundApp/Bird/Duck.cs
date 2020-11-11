@@ -9,13 +9,15 @@ namespace BirdsFlyingAroundApp
     // This class represents duck and implements interfaces!
     public class Duck : Bird, IFly, ISwim
     {
-        // overriding methods!
+        // overriding method!
         public override void Draw()
         {
             Console.WriteLine("  __");
             Console.WriteLine("<(o )__");
             Console.WriteLine(" (____/");
         }
+
+        // The body of interface methods is provided here!
         public void SetAltitude(double altitude)
         {
             //SetAltitude
